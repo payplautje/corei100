@@ -31,7 +31,7 @@ p {
 }
 
 .menu-open .bar.bar-header.expanded {
-    background-color: #222;
+    background-color: blue !important;
 }
 
 .menu h2 {
@@ -77,3 +77,14 @@ p {
     position: fixed;
     bottom: 0;
 }
+
+/* Queue Screen
+==================================*/
+
+.myVolgNummer {background-color: blue; padding:30px; display:block;}
+.myVolgNummer p {color:#fff; font-size: 7em !important; display:block; float:left; width:50%;}
+.pickQueueNumber {margin:0 2em;}
+.queueDetails{ padding:5em;}
+.queueDetails p{ font-size:1.5em;}
+.dienstcentraSelect{}
+.dienstcentraSelect select { padding:10px; color:blue;}

@@ -1,6 +1,12 @@
 <ion-view view-title="Volgnummersysteem">
     <ion-content ng-class="{expanded:isExpanded}">
         <div class="content has-header">
+        <div class="dienstcentraSelect">
+            <select>
+                <option value="0">Kies een Telesur Dienstencentra</option>
+                <option>PARAMARIBO, ZUID - Zonnebloemstraat 50</option>
+            </select>
+        
             <div class="list animate-fade-slide-in-right">
                 <a href="#/app/profile" class="item item-avatar item-icon-right">
                 <img src="img/available.jpg">
@@ -25,6 +31,11 @@
                     <p>Dienstencentra -  Zonnebloemstraat</p>
                     <i class="icon ion-chatbubble muted"></i>
                 </a>
+                
+                <div class="queueDetails"><p>Average waiting time: 10 min.</p><div>
+                <div class="myVolgNummer"><p>357</p><button ui-sref="#" class="button button-positive ink pickQueueNumber">Pick</button>
+</div>
+                
             </div>
         </div>
     </ion-content>
